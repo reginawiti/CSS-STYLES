@@ -1,0 +1,104 @@
+.flexcontainer{
+    display: flex;
+    background-color: blueviolet; 
+    flex-flow: row-reverse;
+    
+   
+}
+.flexcontainer>div{
+  background-color:azure;
+     width: 100px;
+    height: 30px;
+    margin: 20px;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    flex-grow: 10;
+    
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+.column >div{
+    background-color: aquamarine;
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    
+    justify-content:right
+
+}
+.flexwrap{
+    display: flex;
+    background-color: cadetblue;
+    flex-wrap:wrap
+    
+}
+.flexwrap>div{
+  
+background-color: azure;
+height: 30px;
+width: 100px;
+margin: 20px;
+padding: 10px;
+font-size: 30px;
+}
+.flex-order{
+    display: flex;
+    background-color: aquamarine;
+  
+  
+}
+.flex-order .item1 {
+    background-color: bisque;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+     order: 1;
+}
+.flex-order .item2 {
+    order: 2;
+    background-color: bisque;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
+.flex-order .item3 {
+    order: 4;
+    background-color: bisque;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
+.flex-order .item4 {
+    order: 3;
+    background-color: bisque;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
+.flex-order .item5 {
+    order: 5;
+    background-color: bisque;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+}
+.flexwrapreverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: brown;
+}
+.flexwrapreverse>div{
+    background-color: cadetblue;
+    height: 30px;
+    width: 100px;
+    margin: 20PX;
+    padding: 10PX;
+    font-size: 30PX;
+}
